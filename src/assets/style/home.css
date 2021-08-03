@@ -1,0 +1,444 @@
+ul li{
+    list-style-type:none;
+}
+{font-family: "\5FAE\8F6F\96C5\9ED1"}
+body {
+    display: block;
+    color:#000000;
+    margin: 0px !important;
+    font: 14px/26px ‘Microsoft Yahei’, Arial, Helvetica, sans-serif !important;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul{
+    padding-top: 0px ;
+    margin-top: 0px;
+    margin-bottom: 0px ;
+}
+a{text-decoration:none;}
+.header{
+    width:100%;
+    height:65px;
+}
+.logo_position{
+    position: absolute;
+    left: 0%;
+    right: 0;
+    top: 21px;
+    z-index: 999;
+    width: 135px;
+    padding-left: 5px;
+}
+.nav{
+    width:1200px;
+    height:57px;
+    background-color: #ffffff;
+    position:fixed;
+    margin:auto;
+    left:0;
+    right:0;
+    top:0px;
+    text-align:center;
+    z-index: 999;
+}
+.contact_banner{
+    width: 100%;
+}
+.contact_banner>img{
+    width: 100%;
+}
+.nav>ul>li{
+    height: 47px;
+    float: right;
+    line-height: 54px;
+    margin-right: 20px;
+}
+.nav>ul>li>a{
+    margin:0 10px;
+    font-size: 16px;
+    font-weight: normal;
+    color:#000000;
+    font-family: 微软雅黑;
+}
+.itemSelected{
+    border-bottom: 2px solid #fccc28 ;
+}
+.itemSelected>a{
+    color:#fccc28 !important;
+}
+.home_content{
+    width:1200px;
+    height:auto;
+    margin: 0 auto;
+}
+.home_nav>ul>li{
+    margin-bottom: 20px;
+    margin-left: 12px;
+    padding:0 24px;
+    float: left;
+    border-radius: 15px 15px 15px 15px;
+    cursor:pointer;
+}
+.home_nav{
+    padding-top:30px;
+}
+.album{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 9999;
+    width: 100%;
+    background-color: #000;
+}
+.home_nav_left{
+    height:27px;
+    width: 5px;
+    float: left;
+    line-height: 27px;
+}
+.home_nav_span{
+    color:#000000;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    line-height: 27px;
+    height: 27px;
+    float: left;
+}
+.home_nav_right{
+    height:27px;
+    width: 5px;
+    float: left;
+    line-height: 27px;
+}
+.select{
+    background-color: #fccc28;
+}
+.select .home_nav_span{
+    color: #ffffff;
+}
+.closeImg{
+    float: right;
+    margin-right: 5%;
+    margin-top: 4%;
+}
+.arrowLeft{
+    position: absolute;
+    width: 60px;
+    height: 80px;
+    cursor: pointer;
+    z-index: 100;
+    top: 428.5px;
+    left: 55px;
+    display: block;
+}
+.arrowRight{
+    position: absolute;
+    width: 60px;
+    height: 80px;
+    cursor: pointer;
+    z-index: 100;
+    top: 428.5px;
+    right: 55px;
+    display: block;
+}
+.home_img{
+    width:100%;
+    height:auto;
+    padding-top:30px;
+}
+.video_box{
+    width: 46%;
+    height:auto;
+    float: left;
+    margin: 0 2%;
+    margin-bottom: 30px;
+}
+.vjs-custom-skin > .video-js .vjs-big-play-button{
+    font-size: 2em !important;
+}
+/*.vjs-big-play-button{*/
+    /*display: none !important;*/
+/*}*/
+/*.video-js:hover .vjs-big-play-button,.vjs-custom-skin > .video-js .vjs-big-play-button:focus,.vjs-custom-skin > .video-js .vjs-big-play-button:active {*/
+    /*background-color: rgba(0,0,0,0.45) !important;*/
+/*}*/
+/*.video_box:hover .vjs-big-play-button{*/
+    /*display: block !important;*/
+/*}*/
+#dis_requ{
+    display: none;
+}
+#dis_requ_show{
+    display: block;
+}
+.theImg{
+    width: 22%;
+    max-height:600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.theImg>img{
+    width: 100%;
+}
+.home_contact{
+    width:100%;
+    height:auto;
+   padding-top: 30px;
+    margin-bottom: 50px;
+}
+.home_contact_p{
+    padding: 0px;
+    outline: 0px;
+    border: 0px;
+    line-height: 2em;
+    color: rgb(0, 0, 0);
+    font-family: 宋体;
+    font-size: 34px;
+    font-weight: 800;
+    text-align: center;
+}
+.home_contact_span{
+    font-family: 微软雅黑;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+}
+.home_contact_p2{
+    font-family: 微软雅黑;
+    font-size: 26px;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    height: 35px;
+}
+.home_c_box{
+    width:330px;
+    height:90px;
+    border:1px solid #666666;
+    float: left;
+    margin-right: 68px;
+}
+.home_c_box_c{
+    width:auto;
+    height:70%;
+    margin:0 auto;
+    margin-top: 5%;
+    display: table;
+    align-items: center
+}
+.home_c_box_c .iconfont{
+    font-size: 30px;
+    display: block;
+    float: left;
+    margin-top: 14px;
+}
+.home_c_box_c>img{
+    align-items: center;
+    margin-top: 12px;
+}
+.home_c_box_c_d{
+    float: right;
+    width:auto;
+    height:100%;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.home_c_box_c_d>p{
+    margin-bottom: 0px;
+    height:23px;
+}
+.home_c_box_c_d_p2{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.home_contact_qr_img{
+    width:200px;
+    height:auto;
+}
+.map{
+    width: 600px;
+    height: 300px;
+    float: left;
+    margin-top: 30px;
+}
+.company_message{
+    width: 400px;
+    height: 235px;
+    float: right;
+    margin-top: 30px;
+}
+.company_message .iconfont{
+    color: #fccc28;
+    font-size: 22px;
+    margin-right: 5px;
+}
+.company_message_p1{
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+.footer{
+    width:100%;
+    height:120px;
+    border-top:2px solid #fccc28;
+    background-color: #2d2d2d;
+}
+.footer>p{
+    text-align: center;
+    color: rgb(139, 147, 157);
+}
+.footer>p>a{
+    text-align: center;
+    color: rgb(139, 147, 157);
+}
+.message{
+    width:100%;
+    height:395px;
+    background-color: #ebebeb;
+}
+.message_content{
+    width:1200px;
+    height:100%;
+    margin:0 auto;
+}
+.m_b_{
+    margin-top: 20px;
+    width:360px;
+    height:40px;
+    float: left;
+    margin-right: 8px;
+}
+.m_b_s{
+    width:58px;
+    height:36px;
+    line-height: 36px;
+    color:#666666;
+    display: block;
+    float: left;
+    text-align: center;
+}
+.m_b_i{
+    float: left;
+    width:246px;
+    height:35px;
+}
+.m_b_text{
+    width:256px;
+    height:66px;
+}
+.submit_message{
+    width:230px;
+    height:44px;
+    margin-top: 50px;
+    background-color: #f54f4f;
+    font: 14px "微软雅黑";
+    line-height: 44px;
+    float: left;
+    text-align: center;
+    color: #fff;
+    margin-left: 58px;
+}
+.float_message{
+    width:50px;
+    height:180px;
+    position: fixed;
+    bottom:8%;
+    z-index: 999;
+    right: 3%;
+}
+.float_message>ul{
+    padding: 0;
+}
+.float_message_li{
+    width: 100%;
+    margin-bottom: 13px;
+    height:auto;
+    position: relative;
+    cursor:pointer;
+}
+.float_qrCodePosition{
+    position: absolute;
+    left: -162px;
+    top: -130px;
+
+}
+.float_qrCode{
+    width: 150px;
+    height: 170px;
+    margin-right: 15px;
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 6px;
+}
+.float_qrCode>img{
+    width: 126px;
+    height: 126px;
+    margin-top: 10px;
+}
+.float_qrCode>p{
+    text-align: center;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666666;
+    line-height: 12px;
+}
+.float_message_2Position{
+    position: absolute;
+    left: -160px;
+    top: -4px;
+}
+.float_message_2{
+    width: 150px;
+    height: 55px;
+    margin-right: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+.float_message_3Position{
+    position: absolute;
+    left: -222px;
+    top: -15px;
+}
+.float_message_3{
+    width: 210px;
+    height: 75px;
+    margin-right: 15px;
+}
+.float_message_3>p{
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 18px;
+    margin-right: 5px;
+    text-align: center;
+}
+.float_message_3PositionP1{
+    padding-top: 13px;
+    margin-bottom: 10px;
+}
+.float_message_div{
+    display: none;
+}
+.float_message_li:hover .float_message_div{
+    display: block;
+}
+.about_box>p{
+    line-height: 50px;
+}

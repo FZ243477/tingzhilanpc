@@ -1,0 +1,46 @@
+{
+  "code": "0000",
+  "msg": "温馨提示",
+  "data": [
+    {
+      "id": 1,
+      "cover": "@/assets/img/classify/2.png",
+      "sign": "111"
+    },
+    {
+      "id": 2,
+      "cover": "@/assets/img/classify/11.png",
+      "sign": "11"
+    },
+    {
+      "id": 3,
+      "cover": "@/assets/img/classify/12.png",
+      "sign": "12"
+    },
+    {
+      "id": 4,
+      "cover": "@/assets/img/classify/13.png",
+      "sign": "13"
+    },
+    {
+      "id": 5,
+      "cover": "@/assets/img/classify/14.png",
+      "sign": "111"
+    },
+    {
+      "id": 6,
+      "cover": "@/assets/img/classify/15.png",
+      "sign": "111"
+    },
+    {
+      "id": 7,
+      "cover": "@/assets/img/classify/16.png",
+      "sign": "111"
+    },
+    {
+      "id": 8,
+      "cover": "@/assets/img/classify/17.png",
+      "sign": "111"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2831320",
+  "name": "食图图pc端",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "630094",
+      "name": "向右箭头",
+      "font_class": "xiangyoujiantou",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "630095",
+      "name": "向左箭头",
+      "font_class": "xiangzuojiantou",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "2418274",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "4804284",
+      "name": "下载",
+      "font_class": "xiazai",
+      "unicode": "e77f",
+      "unicode_decimal": 59263
+    },
+    {
+      "icon_id": "5199427",
+      "name": "右箭头",
+      "font_class": "youjiantou1",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "7872842",
+      "name": "右箭头",
+      "font_class": "youjiantou2",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "10255862",
+      "name": "左箭头",
+      "font_class": "zuojiantou",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "11372777",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "e8c6",
+      "unicode_decimal": 59590
+    },
+    {
+      "icon_id": "18336463",
+      "name": "左箭头",
+      "font_class": "zuojiantou1",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    }
+  ]
+}
